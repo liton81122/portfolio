@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+.mary{
+    margin: 50px 100px;
+    font-size: 45px;
+    font-weight: bold;
+}
+.list-collection{
+    display: flex;
+    list-style: none;
+    margin: 50px 100px;
+    align-items: center;
+    font-weight: bold;
+}
+.list-collection li{
+    margin-left: 20px;
+}
+.hire-me{
+    background-color:#FD6E0A;
+    width: 100px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+#hi-mary{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+#mary-hardy{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+#download{
+    background-color:#FD6E0A;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+#contact{
+    width: 90px;
+    height: 40px;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    color: #FD6E0A;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: white;
+    margin-left: 10px;
+}
+.flexible-container{
+    display: flex;
+    justify-content: space-between;
+}
+.width{
+    width: 40%;
+}
+.margin-top{
+    margin-top: 200px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+.btn-part{
+    margin-left: 100px;
+}
+.img-width{
+    margin-right: 100px;
+}
+header{
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.about-me{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    background-color: #FFF8F3;
+    padding: 50px;
+    border-radius: 5px;
+}
+#heading-title{
+    margin-bottom: 20px;
+}
+.table{
+    display: flex;
+    justify-content: space-between;
+}
+.info-part{
+    margin-top: 50px;
+}
+.what-i-do{
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.card{
+    width: 160px;
+    text-align: justify;
+    padding: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+.card-flex{
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+#summary{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.resume-part{
+    width: 48%;
+}
+.resume-flex{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+#download-cv{
+    margin: 0
+    auto;
+    display: block;
+    background-color:#FD6E0A;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+.footer{
+    background-color: #FFF8F3;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 50px;
+    padding: 50px;
+}
+.connect-area{
+    width: 40%;
+}
+#name{
+    border: none;
+    padding: 10px 30px;
+}
+#email{
+    border: none;
+    padding: 10px 30px;
+}
+#tex-area{
+    border: none;
+    padding: 10px 30px;
+}
+#submit-btn{
+    background-color:#FD6E0A;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
